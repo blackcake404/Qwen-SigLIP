@@ -4,7 +4,7 @@
 # 使用说明
 **模型：**
 - Qwen/Qwen2.5-0.5B-Instruct：http://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct
-- ggoogle/siglip-base-patch16-224：https://huggingface.co/google/siglip-base-patch16-224
+- google/siglip-base-patch16-224：https://huggingface.co/google/siglip-base-patch16-224
 
 **数据：**
 - 预训练数据：https://huggingface.co/SYSUMage/LLaVA-CC3M-Pretrain-595K
