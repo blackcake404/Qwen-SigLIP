@@ -2,6 +2,10 @@
 尝试使用 Qwen2.5-0.5B 和 SigLIP 搭建的简单多模态模型。分享训练和 SFT 相关代码,记录一下探索和学习的过程。欢迎一起交流讨论~
 
 # 使用说明
+
+**环境配置：**
+- pip install -r requirements.txt
+
 **模型：**
 - Qwen/Qwen2.5-0.5B-Instruct：http://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct
 - google/siglip-base-patch16-224：https://huggingface.co/google/siglip-base-patch16-224
@@ -18,6 +22,11 @@
 - CPU：24 vCPU Intel(R) Xeon(R) Platinum 8352V CPU @ 2.10GHz
 - 内存：180GB
 - 硬盘：50GB
+
+## 指标变化
+- SFT
+    ![SFT Learning Rate](images/sft_lr.png)
+    ![SFT Loss](images/sft_loss.png)
 
 # 在线演示
 Link：
